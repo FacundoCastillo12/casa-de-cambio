@@ -21,8 +21,8 @@ body {
 	grid-area: header;
 	background-color: lightblue;
 }
-.barraMenu {
-	grid-area: barraMenu;
+.barra {
+	grid-area: barra;
 	background-color: rgb(255, 255, 255);
 	text-align: center;
 	align-content: center;
@@ -49,7 +49,7 @@ body {
 	gap: 10px;
 	grid-template:
 		'header' 80px
-		'barraMenu' 10em
+		'barra' 10em
 		'main' auto
 		'footer' 100px;
 }
@@ -58,7 +58,7 @@ body {
 	.grid-contenedor {
 		grid-template:
 			'header header' 100px
-			'barraMenu barraMenu' 6em
+			'barra barra' 6em
 			'main' auto
 			'footer footer' 100px /
 			auto 200px;
@@ -69,7 +69,7 @@ body {
 	.grid-contenedor {
 		grid-template:
 			'header header header' 80px
-			'barraMenu barraMenu barraMenu' 6em
+			'barra barra barra' 6em
 			'main main main' auto
 			'footer footer footer' 100px /
 			200px auto 200px;

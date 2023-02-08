@@ -17,7 +17,7 @@
 		<header class="header">
             <h1 id="titulo">Casa de Cambio</h1>
         </header>
-		<nav class="barraMenu">
+		<nav class="barra">
             <div id="radio">
                 <label for="cambio"><input type="radio" id="cambio" name="lista-cambios" value="cambio" checked>Tipos de cambios</label>
                 <label for="conversion"><input type="radio" id="conversion" name="lista-cambios" value="conversion">Conversion</label>
@@ -33,7 +33,7 @@
                     <option class="moneda" value="CNY">CNY</option>    
                     <option class="moneda" value="RUB">RUB</option>            
                 </select>
-                <button id="ingresar">Ingresar</button>
+                <button id="ingresar" class="btn btn-primary">Ingresar</button>
             </div>
             <div id="contenedor-conversion" class="oculto">
                 <label class="label-dinero" for="dinero-ingresado">Convertir:</label>
@@ -58,14 +58,14 @@
                     <option class="moneda" value="CNY">CNY</option>    
                     <option class="moneda" value="RUB">RUB</option>            
                 </select></label>
-                <button id="convertir">Convertir</button>
+                <button id="convertir" class="btn btn-primary">Convertir</button>
             </div>
 		</nav>
 		<article class="main">
             <ul id="lista-moneda" class="list-group">
                 <h2 id="fecha-cambio"></h2>
-                <li class="list-group-item">Recuerda selecionar si quieres los tipos de cambios o la conversion</li>
-                <li class="list-group-item">Aqui se mostrara los detalles</li>
+                <li class="list-group-item">Recuerda selecionar si quieres los tipos de cambios o la conversion!</li>
+                <li class="list-group-item">Aqui se mostrara los detalles!</li>
               </ul>
         </article>
 		<footer class="footer">
